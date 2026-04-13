@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900;
+  }
+}
+
+.vip-badge {
+  @apply bg-amber-400 text-amber-900 font-bold px-2 py-0.5 rounded-full text-xs shadow-sm;
+  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+}

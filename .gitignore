@@ -1,0 +1,17 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Go
+server/api
+server/tmp/
+
+# OS
+.DS_Store
